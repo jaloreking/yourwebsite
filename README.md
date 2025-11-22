@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="बच्चों के कपड़ों की ऑनलाइन दुकान - किड्स वियर" />
-    <title>किड्स क्लोथिंग - बच्चों के कपड़ों की दुकान</title>
+    <meta name="description" content="Online store for kids clothing - Kidswear" />
+    <title>Kids Clothing - Children's Apparel Store</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <style>
         * {
@@ -876,8 +876,8 @@
     <div class="header-top">
         <div class="container">
             <div class="header-top-content">
-                <div>मुफ्त शिपिंग 499₹+ के सभी ऑर्डर पर</div>
-                <div>हेल्पलाइन: +91 98765 43210</div>
+                <div>Free shipping on all orders over ₹499</div>
+                <div>Helpline: +91 98765 43210</div>
             </div>
         </div>
     </div>
@@ -887,17 +887,17 @@
         <div class="container">
             <div class="header-content">
                 <a href="#" class="logo" data-page="home">
-                    <div class="logo-text">किड्स<span>वियर</span></div>
+                    <div class="logo-text">Kids<span>Wear</span></div>
                 </a>
                 <div class="mobile-menu">☰</div>
                 <nav>
                     <ul>
-                        <li><a href="#" class="active" data-page="home">होम</a></li>
-                        <li><a href="#" data-page="boys">लड़कों के कपड़े</a></li>
-                        <li><a href="#" data-page="girls">लड़कियों के कपड़े</a></li>
-                        <li><a href="#" data-page="new">नया संग्रह</a></li>
-                        <li><a href="#" data-page="bestseller">बेस्ट सेलर</a></li>
-                        <li><a href="#" data-page="offers">ऑफर्स</a></li>
+                        <li><a href="#" class="active" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="boys">Boys</a></li>
+                        <li><a href="#" data-page="girls">Girls</a></li>
+                        <li><a href="#" data-page="new">New Collection</a></li>
+                        <li><a href="#" data-page="bestseller">Bestsellers</a></li>
+                        <li><a href="#" data-page="offers">Offers</a></li>
                     </ul>
                 </nav>
                 <div class="header-icons">
@@ -919,17 +919,17 @@
     <!-- Cart Sidebar -->
     <div class="cart-sidebar">
         <div class="cart-header">
-            <h3>आपकी शॉपिंग कार्ट</h3>
+            <h3>Your Shopping Cart</h3>
             <button class="close-cart">×</button>
         </div>
         <div class="cart-items">
             <!-- Cart items will be added here dynamically -->
         </div>
         <div class="cart-total">
-            <span>कुल राशि:</span>
+            <span>Total:</span>
             <span>₹<span id="cart-total-price">0</span></span>
         </div>
-        <button class="checkout-btn">चेकआउट</button>
+        <button class="checkout-btn">Checkout</button>
     </div>
 
     <!-- Home Page -->
@@ -938,9 +938,9 @@
         <section class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1>बच्चों के लिए आरामदायक और स्टाइलिश कपड़े</h1>
-                    <p>हमारे संग्रह में नवजात शिशुओं से लेकर 12 साल तक के बच्चों के लिए उच्च गुणवत्ता वाले कपड़े उपलब्ध हैं</p>
-                    <a href="#" class="btn" data-page="new">नया संग्रह देखें</a>
+                    <h1>Comfortable & Stylish Clothing for Kids</h1>
+                    <p>High-quality clothing for children from newborns up to 12 years old</p>
+                    <a href="#" class="btn" data-page="new">View New Collection</a>
                 </div>
             </div>
         </section>
@@ -948,28 +948,28 @@
         <!-- Categories Section -->
         <section class="container">
             <div class="section-title">
-                <h2>श्रेणियाँ</h2>
+                <h2>Categories</h2>
             </div>
             <div class="categories">
                 <a href="#" class="category" data-page="boys">
                     <div class="category-icon">👕</div>
-                    <h3>टॉप्स & टी-शर्ट्स</h3>
-                    <p>आरामदायक और ट्रेंडी</p>
+                    <h3>Tops & T-Shirts</h3>
+                    <p>Comfortable and trendy</p>
                 </a>
                 <a href="#" class="category" data-page="boys">
                     <div class="category-icon">👖</div>
-                    <h3>बॉटम्स</h3>
-                    <p>पैंट्स, शॉर्ट्स और लेगिंग्स</p>
+                    <h3>Bottoms</h3>
+                    <p>Pants, shorts and leggings</p>
                 </a>
                 <a href="#" class="category" data-page="girls">
                     <div class="category-icon">👗</div>
-                    <h3>ड्रेसेस</h3>
-                    <p>खूबसूरत और आकर्षक</p>
+                    <h3>Dresses</h3>
+                    <p>Beautiful and charming</p>
                 </a>
                 <a href="#" class="category" data-page="new">
                     <div class="category-icon">🧥</div>
-                    <h3>आउटरवियर</h3>
-                    <p>जैकेट्स और स्वेटर</p>
+                    <h3>Outerwear</h3>
+                    <p>Jackets and sweaters</p>
                 </a>
             </div>
         </section>
@@ -977,23 +977,23 @@
         <!-- Featured Products -->
         <section class="container">
             <div class="section-title">
-                <h2>फीचर्ड प्रोडक्ट्स</h2>
+                <h2>Featured Products</h2>
             </div>
             <div class="products">
                 <!-- Product 1 -->
                 <div class="product">
                     <div class="product-image">
-                        <div class="product-tag">नया</div>
-                        <img src="https://images.unsplash.com/photo-1586366775916-301ff2e4d913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="कॉटन प्रिंटेड टी-शर्ट">
+                        <div class="product-tag">New</div>
+                        <img src="https://images.unsplash.com/photo-1586366775916-301ff2e4d913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Cotton Printed T-Shirt">
                     </div>
                     <div class="product-content">
-                        <h3 class="product-title">कॉटन प्रिंटेड टी-शर्ट</h3>
+                        <h3 class="product-title">Cotton Printed T-Shirt</h3>
                         <div class="product-price">
                             <span class="current-price">₹499</span>
                             <span class="original-price">₹799</span>
                         </div>
                         <div class="product-actions">
-                            <button class="add-to-cart" data-id="1" data-name="कॉटन प्रिंटेड टी-शर्ट" data-price="499" data-image="https://images.unsplash.com/photo-1586366775916-301ff2e4d913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80">कार्ट में डालें</button>
+                            <button class="add-to-cart" data-id="1" data-name="Cotton Printed T-Shirt" data-price="499" data-image="https://images.unsplash.com/photo-1586366775916-301ff2e4d913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80">Add to Cart</button>
                             <button class="wishlist">❤️</button>
                         </div>
                     </div>
@@ -1002,17 +1002,17 @@
                 <!-- Product 2 -->
                 <div class="product">
                     <div class="product-image">
-                        <div class="product-tag">बेस्ट सेलर</div>
-                        <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="डेनिम जीन्स">
+                        <div class="product-tag">Bestseller</div>
+                        <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Denim Jeans">
                     </div>
                     <div class="product-content">
-                        <h3 class="product-title">डेनिम जीन्स</h3>
+                        <h3 class="product-title">Denim Jeans</h3>
                         <div class="product-price">
                             <span class="current-price">₹899</span>
                             <span class="original-price">₹1199</span>
                         </div>
                         <div class="product-actions">
-                            <button class="add-to-cart" data-id="2" data-name="डेनिम जीन्स" data-price="899" data-image="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80">कार्ट में डालें</button>
+                            <button class="add-to-cart" data-id="2" data-name="Denim Jeans" data-price="899" data-image="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80">Add to Cart</button>
                             <button class="wishlist">❤️</button>
                         </div>
                     </div>
@@ -1021,16 +1021,16 @@
                 <!-- Product 3 -->
                 <div class="product">
                     <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1594736797933-d0e6e4f6f6de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="फ्रॉक ड्रेस">
+                        <img src="https://images.unsplash.com/photo-1594736797933-d0e6e4f6f6de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Frock Dress">
                     </div>
                     <div class="product-content">
-                        <h3 class="product-title">फ्रॉक ड्रेस</h3>
+                        <h3 class="product-title">Frock Dress</h3>
                         <div class="product-price">
                             <span class="current-price">₹799</span>
                             <span class="original-price">₹999</span>
                         </div>
                         <div class="product-actions">
-                            <button class="add-to-cart" data-id="3" data-name="फ्रॉक ड्रेस" data-price="799" data-image="https://images.unsplash.com/photo-1594736797933-d0e6e4f6f6de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80">कार्ट में डालें</button>
+                            <button class="add-to-cart" data-id="3" data-name="Frock Dress" data-price="799" data-image="https://images.unsplash.com/photo-1594736797933-d0e6e4f6f6de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80">Add to Cart</button>
                             <button class="wishlist">❤️</button>
                         </div>
                     </div>
@@ -1039,17 +1039,17 @@
                 <!-- Product 4 -->
                 <div class="product">
                     <div class="product-image">
-                        <div class="product-tag">ऑफर</div>
-                        <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="विंटर जैकेट">
+                        <div class="product-tag">Offer</div>
+                        <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Winter Jacket">
                     </div>
                     <div class="product-content">
-                        <h3 class="product-title">विंटर जैकेट</h3>
+                        <h3 class="product-title">Winter Jacket</h3>
                         <div class="product-price">
                             <span class="current-price">₹1299</span>
                             <span class="original-price">₹1799</span>
                         </div>
                         <div class="product-actions">
-                            <button class="add-to-cart" data-id="4" data-name="विंटर जैकेट" data-price="1299" data-image="https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80">कार्ट में डालें</button>
+                            <button class="add-to-cart" data-id="4" data-name="Winter Jacket" data-price="1299" data-image="https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80">Add to Cart</button>
                             <button class="wishlist">❤️</button>
                         </div>
                     </div>
@@ -1060,26 +1060,26 @@
         <!-- Age Groups -->
         <section class="container">
             <div class="section-title">
-                <h2>उम्र के अनुसार</h2>
+                <h2>By Age</h2>
             </div>
             <div class="age-groups">
                 <a href="#" class="age-group" data-page="new">
                     <div class="age-group-icon">👶</div>
-                    <h3>0-2 साल</h3>
-                    <p>नवजात और टॉडलर्स के लिए</p>
-                    <div class="btn" style="margin-top: 15px; padding: 8px 15px;">देखें</div>
+                    <h3>0-2 Years</h3>
+                    <p>For newborns and toddlers</p>
+                    <div class="btn" style="margin-top: 15px; padding: 8px 15px;">View</div>
                 </a>
                 <a href="#" class="age-group" data-page="new">
                     <div class="age-group-icon">🧒</div>
-                    <h3>2-6 साल</h3>
-                    <p>प्री-स्कूल बच्चों के लिए</p>
-                    <div class="btn" style="margin-top: 15px; padding: 8px 15px;">देखें</div>
+                    <h3>2-6 Years</h3>
+                    <p>For preschool kids</p>
+                    <div class="btn" style="margin-top: 15px; padding: 8px 15px;">View</div>
                 </a>
                 <a href="#" class="age-group" data-page="new">
                     <div class="age-group-icon">👦</div>
-                    <h3>6-12 साल</h3>
-                    <p>बड़े बच्चों के लिए</p>
-                    <div class="btn" style="margin-top: 15px; padding: 8px 15px;">देखें</div>
+                    <h3>6-12 Years</h3>
+                    <p>For older kids</p>
+                    <div class="btn" style="margin-top: 15px; padding: 8px 15px;">View</div>
                 </a>
             </div>
         </section>
@@ -1088,13 +1088,13 @@
         <section class="testimonials">
             <div class="container">
                 <div class="section-title">
-                    <h2>ग्राहकों की राय</h2>
+                    <h2>Customer Reviews</h2>
                 </div>
                 <div class="testimonial-container">
                     <div class="testimonial">
                         <div class="testimonial-rating">★★★★★</div>
-                        <p class="testimonial-text">"इन कपड़ों की क्वालिटी बहुत अच्छी है। मेरी बेटी को यह ड्रेस बहुत पसंद आई और यह लंबे समय तक चलने वाली है। निश्चित रूप से दोबारा खरीदूंगी!"</p>
-                        <p class="testimonial-author">- प्रिया शर्मा, मुंबई</p>
+                        <p class="testimonial-text">"The quality of these clothes is very good. My daughter loved this dress and it is long-lasting. Will definitely buy again!"</p>
+                        <p class="testimonial-author">- Priya Sharma, Mumbai</p>
                     </div>
                 </div>
             </div>
@@ -1103,11 +1103,11 @@
         <!-- Newsletter -->
         <section class="newsletter">
             <div class="container">
-                <h2>हमारे न्यूज़लेटर के लिए साइन अप करें</h2>
-                <p>नए प्रोडक्ट्स, एक्सक्लूसिव ऑफर्स और डिस्काउंट के बारे में सबसे पहले जानें</p>
+                <h2>Sign up for our Newsletter</h2>
+                <p>Be the first to know about new products, exclusive offers and discounts</p>
                 <form class="newsletter-form">
-                    <input type="email" placeholder="आपका ईमेल पता" required>
-                    <button type="submit">सब्सक्राइब</button>
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
                 </form>
             </div>
         </section>
@@ -1117,7 +1117,7 @@
     <section id="boys" class="page-section">
         <div class="container">
             <div class="section-title">
-                <h2>लड़कों के कपड़े</h2>
+                <h2>Boys</h2>
             </div>
             <div class="products">
                 <!-- Boys products will be loaded here -->
@@ -1128,7 +1128,7 @@
     <section id="girls" class="page-section">
         <div class="container">
             <div class="section-title">
-                <h2>लड़कियों के कपड़े</h2>
+                <h2>Girls</h2>
             </div>
             <div class="products">
                 <!-- Girls products will be loaded here -->
@@ -1139,7 +1139,7 @@
     <section id="new" class="page-section">
         <div class="container">
             <div class="section-title">
-                <h2>नया संग्रह</h2>
+                <h2>New Collection</h2>
             </div>
             <div class="products">
                 <!-- New collection products will be loaded here -->
@@ -1150,7 +1150,7 @@
     <section id="bestseller" class="page-section">
         <div class="container">
             <div class="section-title">
-                <h2>बेस्ट सेलर</h2>
+                <h2>Bestsellers</h2>
             </div>
             <div class="products">
                 <!-- Bestseller products will be loaded here -->
@@ -1161,7 +1161,7 @@
     <section id="offers" class="page-section">
         <div class="container">
             <div class="section-title">
-                <h2>ऑफर्स</h2>
+                <h2>Offers</h2>
             </div>
             <div class="products">
                 <!-- Offer products will be loaded here -->
@@ -1174,8 +1174,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>किड्स वियर</h3>
-                    <p>बच्चों के लिए सबसे अच्छी क्वालिटी के कपड़े। हमारा मिशन है हर बच्चे को आरामदायक और स्टाइलिश कपड़े उपलब्ध कराना।</p>
+                    <h3>Kids Wear</h3>
+                    <p>Best quality clothing for children. Our mission is to provide every child with comfortable and stylish clothes.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -1184,27 +1184,27 @@
                     </div>
                 </div>
                 <div class="footer-column">
-                    <h3>लिंक्स</h3>
+                    <h3>Links</h3>
                     <ul class="footer-links">
-                        <li><a href="#" data-page="home">होम</a></li>
-                        <li><a href="#" data-page="about">हमारे बारे में</a></li>
-                        <li><a href="#" data-page="new">प्रोडक्ट्स</a></li>
-                        <li><a href="#" data-page="offers">ऑफर्स</a></li>
-                        <li><a href="#" data-page="contact">संपर्क करें</a></li>
+                        <li><a href="#" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="about">About Us</a></li>
+                        <li><a href="#" data-page="new">Products</a></li>
+                        <li><a href="#" data-page="offers">Offers</a></li>
+                        <li><a href="#" data-page="contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3>ग्राहक सेवा</h3>
+                    <h3>Customer Service</h3>
                     <ul class="footer-links">
-                        <li><a href="#">मेरा अकाउंट</a></li>
-                        <li><a href="#">ट्रैक ऑर्डर</a></li>
-                        <li><a href="#">शिपिंग पॉलिसी</a></li>
-                        <li><a href="#">रिटर्न पॉलिसी</a></li>
-                        <li><a href="#">सहायता</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Help</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3>संपर्क</h3>
+                    <h3>Contact</h3>
                     <ul class="footer-links contact-info">
                         <li>
                             <span class="contact-icon"><i class="fas fa-phone"></i></span>
@@ -1216,13 +1216,13 @@
                         </li>
                         <li>
                             <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-                            <span>123 शॉपिंग स्ट्रीट, दिल्ली, भारत</span>
+                            <span>123 Shopping Street, Delhi, India</span>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="copyright">
-                &copy; 2023 किड्स वियर. सभी अधिकार सुरक्षित।
+                &copy; 2023 Kids Wear. All rights reserved.
             </div>
         </div>
     </footer>
@@ -1233,202 +1233,202 @@
             home: [
                 {
                     id: 1,
-                    name: "कॉटन प्रिंटेड टी-शर्ट",
+                    name: "Cotton Printed T-Shirt",
                     price: 499,
                     originalPrice: 799,
                     image: "https://images.unsplash.com/photo-1586366775916-301ff2e4d913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "नया"
+                    tag: "New"
                 },
                 {
                     id: 2,
-                    name: "डेनिम जीन्स",
+                    name: "Denim Jeans",
                     price: 899,
                     originalPrice: 1199,
                     image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "बेस्ट सेलर"
+                    tag: "Bestseller"
                 },
                 {
                     id: 3,
-                    name: "फ्रॉक ड्रेस",
+                    name: "Frock Dress",
                     price: 799,
                     originalPrice: 999,
                     image: "https://images.unsplash.com/photo-1594736797933-d0e6e4f6f6de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
                 },
                 {
                     id: 4,
-                    name: "विंटर जैकेट",
+                    name: "Winter Jacket",
                     price: 1299,
                     originalPrice: 1799,
                     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "ऑफर"
+                    tag: "Offer"
                 }
             ],
             boys: [
                 {
                     id: 5,
-                    name: "बॉयज कैजुअल शर्ट",
+                    name: "Boys Casual Shirt",
                     price: 699,
                     originalPrice: 999,
                     image: "https://images.unsplash.com/photo-1586366775916-301ff2e4d913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "नया"
+                    tag: "New"
                 },
                 {
                     id: 6,
-                    name: "बॉयज ट्रैक पैंट",
+                    name: "Boys Track Pants",
                     price: 849,
                     originalPrice: 1199,
                     image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
                 },
                 {
                     id: 7,
-                    name: "बॉयज स्वेटशर्ट",
+                    name: "Boys Sweatshirt",
                     price: 899,
                     originalPrice: 1299,
                     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "बेस्ट सेलर"
+                    tag: "Bestseller"
                 },
                 {
                     id: 8,
-                    name: "बॉयज शॉर्ट्स",
+                    name: "Boys Shorts",
                     price: 549,
                     originalPrice: 799,
                     image: "https://images.unsplash.com/photo-1594736797933-d0e6e4f6f6de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "ऑफर"
+                    tag: "Offer"
                 }
             ],
             girls: [
                 {
                     id: 9,
-                    name: "गर्ल्स फ्रॉक ड्रेस",
+                    name: "Girls Frock Dress",
                     price: 999,
                     originalPrice: 1499,
                     image: "https://images.unsplash.com/photo-1594736797933-d0e6e4f6f6de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "नया"
+                    tag: "New"
                 },
                 {
                     id: 10,
-                    name: "गर्ल्स लेगिंग्स",
+                    name: "Girls Leggings",
                     price: 599,
                     originalPrice: 899,
                     image: "https://images.unsplash.com/photo-1586366775916-301ff2e4d913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
                 },
                 {
                     id: 11,
-                    name: "गर्ल्स टॉप",
+                    name: "Girls Top",
                     price: 449,
                     originalPrice: 699,
                     image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "बेस्ट सेलर"
+                    tag: "Bestseller"
                 },
                 {
                     id: 12,
-                    name: "गर्ल्स स्कर्ट",
+                    name: "Girls Skirt",
                     price: 749,
                     originalPrice: 1099,
                     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "ऑफर"
+                    tag: "Offer"
                 }
             ],
             new: [
                 {
                     id: 13,
-                    name: "नवजात बेबी सेट",
+                    name: "Newborn Baby Set",
                     price: 1299,
                     originalPrice: 1899,
                     image: "https://images.unsplash.com/photo-1594736797933-d0e6e4f6f6de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "नया"
+                    tag: "New"
                 },
                 {
                     id: 14,
-                    name: "टॉडलर प्लेसूट",
+                    name: "Toddler Playsuit",
                     price: 899,
                     originalPrice: 1299,
                     image: "https://images.unsplash.com/photo-1586366775916-301ff2e4d913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "नया"
+                    tag: "New"
                 },
                 {
                     id: 15,
-                    name: "किड्स एथलेटिक सेट",
+                    name: "Kids Athletic Set",
                     price: 1499,
                     originalPrice: 1999,
                     image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "नया"
+                    tag: "New"
                 },
                 {
                     id: 16,
-                    name: "डिजाइनर किड्स आउटफिट",
+                    name: "Designer Kids Outfit",
                     price: 1799,
                     originalPrice: 2499,
                     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "नया"
+                    tag: "New"
                 }
             ],
             bestseller: [
                 {
                     id: 17,
-                    name: "कॉटन कम्फर्ट टी-शर्ट",
+                    name: "Cotton Comfort T-Shirt",
                     price: 399,
                     originalPrice: 599,
                     image: "https://images.unsplash.com/photo-1586366775916-301ff2e4d913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "बेस्ट सेलर"
+                    tag: "Bestseller"
                 },
                 {
                     id: 18,
-                    name: "स्ट्रेचेबल जीन्स",
+                    name: "Stretchable Jeans",
                     price: 799,
                     originalPrice: 1199,
                     image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "बेस्ट सेलर"
+                    tag: "Bestseller"
                 },
                 {
                     id: 19,
-                    name: "पार्टी वियर ड्रेस",
+                    name: "Party Wear Dress",
                     price: 1299,
                     originalPrice: 1799,
                     image: "https://images.unsplash.com/photo-1594736797933-d0e6e4f6f6de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "बेस्ट सेलर"
+                    tag: "Bestseller"
                 },
                 {
                     id: 20,
-                    name: "विंटर हूडी",
+                    name: "Winter Hoodie",
                     price: 999,
                     originalPrice: 1499,
                     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "बेस्ट सेलर"
+                    tag: "Bestseller"
                 }
             ],
             offers: [
                 {
                     id: 21,
-                    name: "डिस्काउंट टी-शर्ट पैक",
+                    name: "Discount T-Shirt Pack",
                     price: 999,
                     originalPrice: 1599,
                     image: "https://images.unsplash.com/photo-1586366775916-301ff2e4d913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "ऑफर"
+                    tag: "Offer"
                 },
                 {
                     id: 22,
-                    name: "बंडल ऑफर - 3 ड्रेसेस",
+                    name: "Bundle Offer - 3 Dresses",
                     price: 1999,
                     originalPrice: 2999,
                     image: "https://images.unsplash.com/photo-1594736797933-d0e6e4f6f6de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "ऑफर"
+                    tag: "Offer"
                 },
                 {
                     id: 23,
-                    name: "सेल पर जीन्स",
+                    name: "Jeans on Sale",
                     price: 699,
                     originalPrice: 1199,
                     image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "ऑफर"
+                    tag: "Offer"
                 },
                 {
                     id: 24,
-                    name: "विंटर सेल - जैकेट",
+                    name: "Winter Sale - Jacket",
                     price: 1499,
                     originalPrice: 2199,
                     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-                    tag: "ऑफर"
+                    tag: "Offer"
                 }
             ]
         };
@@ -1516,7 +1516,7 @@
             newsletterForm.addEventListener('submit', function(e) {
                 e.preventDefault();
                 const email = this.querySelector('input[type="email"]').value;
-                alert(`धन्यवाद! ${email} के लिए सब्सक्राइब किया गया है।`);
+                alert(`Thank you! ${email} has been subscribed.`);
                 this.reset();
             });
         }
@@ -1574,7 +1574,7 @@
                         ${product.originalPrice ? `<span class="original-price">₹${product.originalPrice}</span>` : ''}
                     </div>
                     <div class="product-actions">
-                        <button class="add-to-cart" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}" data-image="${product.image}">कार्ट में डालें</button>
+                        <button class="add-to-cart" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}" data-image="${product.image}">Add to Cart</button>
                         <button class="wishlist">❤️</button>
                     </div>
                 </div>
@@ -1600,7 +1600,7 @@
             }
             
             updateCart();
-            showNotification(`${name} कार्ट में जोड़ दिया गया है!`);
+            showNotification(`${name} has been added to the cart!`);
         }
 
         function updateCart() {
@@ -1612,7 +1612,7 @@
             cartItemsContainer.innerHTML = '';
             
             if (cart.length === 0) {
-                cartItemsContainer.innerHTML = '<p>आपकी कार्ट खाली है</p>';
+                cartItemsContainer.innerHTML = '<p>Your cart is empty</p>';
                 cartTotalPrice.textContent = '0';
                 return;
             }
@@ -1636,7 +1636,7 @@
                             <button class="quantity-btn minus" data-id="${item.id}">-</button>
                             <input type="text" class="quantity-input" value="${item.quantity}" readonly>
                             <button class="quantity-btn plus" data-id="${item.id}">+</button>
-                            <button class="remove-item" data-id="${item.id}">हटाएं</button>
+                            <button class="remove-item" data-id="${item.id}">Remove</button>
                         </div>
                     </div>
                 `;
@@ -1720,11 +1720,11 @@
         // Checkout button
         document.querySelector('.checkout-btn').addEventListener('click', function() {
             if (cart.length === 0) {
-                alert('आपकी कार्ट खाली है!');
+                alert('Your cart is empty!');
                 return;
             }
             
-            alert('आपका ऑर्डर सफलतापूर्वक प्लेस किया गया है! धन्यवाद!');
+            alert('Your order has been placed successfully! Thank you!');
             cart = [];
             updateCart();
             cartSidebar.classList.remove('active');
